@@ -10,27 +10,27 @@ definePageMeta({
 <template>
   <Container>
     <Hero
-      :title="page.hero.title"
-      :description="page.hero.description"
-      :image="page.hero.image"
-      :imageAlt="page.hero.imageAlt"
-      :buttons="page.hero.buttons"
+      :title="BIT OF EVERYTHING"
+      :description="BIT OF EVERYTHING"
+      :image=
+      :imageAlt
+      :buttons=
     ></Hero>
     <Logos :title="page.logos.title" :icons="page.logos.icons"></Logos>
     <Features
-      :title="page.features.title"
-      :description="page.features.description"
-      :items="page.features.items"
+      :title="BIT OF EVERYTHING"
+      :description="BIT OF EVERYTHING"
+      :items=
     ></Features>
     <Testimonials
-      :title="page.testimonials.title"
-      :description="page.testimonials.description"
-      :items="page.testimonials.items"
+      :title="BIT OF EVERYTHING"
+      :description="BIT OF EVERYTHING"
+      :items=
     ></Testimonials>
     <Cta
-      :title="page.cta.title"
-      :description="page.cta.description"
-      :buttons="page.cta.buttons"
+      :title="BIT OF EVERYTHING"
+      :description="BIT OF EVERYTHING"
+      :buttons="BOE.COM.PK"
     ></Cta>
   </Container>
 </template>
