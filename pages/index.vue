@@ -1,14 +1,6 @@
-<script setup>
-import pageData from '@/data/index.json'
-const page = ref(pageData)
-
-definePageMeta({
-  layout: "default",
-});
-</script>
-
 <template>
   <Container>
+    <!-- Hero Section -->
     <Hero
       :title="page.hero.title"
       :description="page.hero.description"
@@ -16,17 +8,28 @@ definePageMeta({
       :imageAlt="page.hero.imageAlt"
       :buttons="page.hero.buttons"
     ></Hero>
-    <Logos :title="page.logos.title" :icons="page.logos.icons"></Logos>
+
+    <!-- REMOVE Logos Section -->
+    <!-- <Logos 
+      :title="page.logos.title" 
+      :icons="page.logos.icons" 
+    ></Logos> -->
+
+    <!-- Features Section -->
     <Features
       :title="page.features.title"
       :description="page.features.description"
       :items="page.features.items"
     ></Features>
+
+    <!-- Testimonials Section -->
     <Testimonials
       :title="page.testimonials.title"
       :description="page.testimonials.description"
       :items="page.testimonials.items"
     ></Testimonials>
+
+    <!-- Call to Action Section -->
     <Cta
       :title="page.cta.title"
       :description="page.cta.description"
@@ -34,3 +37,4 @@ definePageMeta({
     ></Cta>
   </Container>
 </template>
+
